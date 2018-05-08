@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120895DC20A045FC004B2387 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120895DB20A045FB004B2387 /* DiskCache.swift */; };
+		120895DF20A04FFD004B2387 /* imageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120895DE20A04FFD004B2387 /* imageHelper.swift */; };
+		120B9D452099F2CE000D9719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D442099F2CE000D9719 /* AppDelegate.swift */; };
+		120B9D472099F2CE000D9719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D462099F2CE000D9719 /* ViewController.swift */; };
+		120B9D4A2099F2CE000D9719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120B9D482099F2CE000D9719 /* Main.storyboard */; };
+		120B9D4C2099F2CE000D9719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120B9D4B2099F2CE000D9719 /* Assets.xcassets */; };
+		120B9D4F2099F2CE000D9719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120B9D4D2099F2CE000D9719 /* LaunchScreen.storyboard */; };
+		120B9D572099FB12000D9719 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 120B9D562099FB12000D9719 /* Podfile */; };
+		120B9D592099FDF1000D9719 /* MainST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D582099FDF1000D9719 /* MainST.swift */; };
+		120B9D5B209A02DF000D9719 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D5A209A02DF000D9719 /* MainCell.swift */; };
+		120B9D5D209A0849000D9719 /* AppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D5C209A0849000D9719 /* AppDetailVC.swift */; };
+		120B9D5F209A0F95000D9719 /* AppDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B9D5E209A0F95000D9719 /* AppDetailCell.swift */; };
+		1294AFC5209B55F60028D362 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1294AFC4209B55F60028D362 /* Network.swift */; };
+		FCAE34B65DA9089E16E1C0F1 /* Pods_kakaobank_homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F99B2968C7AF4E95DCB6024 /* Pods_kakaobank_homework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09EEA1E65D8B8E6D3763B48B /* Pods-kakaobank_homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakaobank_homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-kakaobank_homework/Pods-kakaobank_homework.release.xcconfig"; sourceTree = "<group>"; };
+		120895DB20A045FB004B2387 /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		120895DE20A04FFD004B2387 /* imageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHelper.swift; sourceTree = "<group>"; };
+		120B9D412099F2CE000D9719 /* kakaobank_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakaobank_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120B9D442099F2CE000D9719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		120B9D462099F2CE000D9719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		120B9D492099F2CE000D9719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120B9D4B2099F2CE000D9719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120B9D4E2099F2CE000D9719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		120B9D502099F2CE000D9719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120B9D562099FB12000D9719 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		120B9D582099FDF1000D9719 /* MainST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainST.swift; sourceTree = "<group>"; };
+		120B9D5A209A02DF000D9719 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		120B9D5C209A0849000D9719 /* AppDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailVC.swift; sourceTree = "<group>"; };
+		120B9D5E209A0F95000D9719 /* AppDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailCell.swift; sourceTree = "<group>"; };
+		1294AFC4209B55F60028D362 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2F99B2968C7AF4E95DCB6024 /* Pods_kakaobank_homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kakaobank_homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BED87820C81561B6F019D7 /* Pods-kakaobank_homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakaobank_homework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kakaobank_homework/Pods-kakaobank_homework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120B9D3E2099F2CE000D9719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAE34B65DA9089E16E1C0F1 /* Pods_kakaobank_homework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120895DD20A04FDE004B2387 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				120895DE20A04FFD004B2387 /* imageHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		120B9D382099F2CE000D9719 = {
+			isa = PBXGroup;
+			children = (
+				120B9D562099FB12000D9719 /* Podfile */,
+				120B9D432099F2CE000D9719 /* kakaobank_homework */,
+				120B9D422099F2CE000D9719 /* Products */,
+				AA448C07EB74E58A2D0118A3 /* Pods */,
+				5017161B50904208A6D7AE28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		120B9D422099F2CE000D9719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120B9D412099F2CE000D9719 /* kakaobank_homework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120B9D432099F2CE000D9719 /* kakaobank_homework */ = {
+			isa = PBXGroup;
+			children = (
+				120895DD20A04FDE004B2387 /* helper */,
+				120B9D442099F2CE000D9719 /* AppDelegate.swift */,
+				120B9D462099F2CE000D9719 /* ViewController.swift */,
+				120B9D482099F2CE000D9719 /* Main.storyboard */,
+				120B9D4B2099F2CE000D9719 /* Assets.xcassets */,
+				120B9D4D2099F2CE000D9719 /* LaunchScreen.storyboard */,
+				120B9D502099F2CE000D9719 /* Info.plist */,
+				120B9D582099FDF1000D9719 /* MainST.swift */,
+				120B9D5A209A02DF000D9719 /* MainCell.swift */,
+				120B9D5C209A0849000D9719 /* AppDetailVC.swift */,
+				120B9D5E209A0F95000D9719 /* AppDetailCell.swift */,
+				1294AFC4209B55F60028D362 /* Network.swift */,
+				120895DB20A045FB004B2387 /* DiskCache.swift */,
+			);
+			path = kakaobank_homework;
+			sourceTree = "<group>";
+		};
+		5017161B50904208A6D7AE28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F99B2968C7AF4E95DCB6024 /* Pods_kakaobank_homework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA448C07EB74E58A2D0118A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82BED87820C81561B6F019D7 /* Pods-kakaobank_homework.debug.xcconfig */,
+				09EEA1E65D8B8E6D3763B48B /* Pods-kakaobank_homework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120B9D402099F2CE000D9719 /* kakaobank_homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120B9D532099F2CE000D9719 /* Build configuration list for PBXNativeTarget "kakaobank_homework" */;
+			buildPhases = (
+				BFC87E13548FACE1281572F0 /* [CP] Check Pods Manifest.lock */,
+				120B9D3D2099F2CE000D9719 /* Sources */,
+				120B9D3E2099F2CE000D9719 /* Frameworks */,
+				120B9D3F2099F2CE000D9719 /* Resources */,
+				58D65C6254DE1D5411083518 /* [CP] Embed Pods Frameworks */,
+				6184C5DD997F6BA15CDA136D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakaobank_homework;
+			productName = kakaobank_homework;
+			productReference = 120B9D412099F2CE000D9719 /* kakaobank_homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120B9D392099F2CE000D9719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Deric;
+				TargetAttributes = {
+					120B9D402099F2CE000D9719 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 120B9D3C2099F2CE000D9719 /* Build configuration list for PBXProject "kakaobank_homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120B9D382099F2CE000D9719;
+			productRefGroup = 120B9D422099F2CE000D9719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120B9D402099F2CE000D9719 /* kakaobank_homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120B9D3F2099F2CE000D9719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120B9D4F2099F2CE000D9719 /* LaunchScreen.storyboard in Resources */,
+				120B9D4C2099F2CE000D9719 /* Assets.xcassets in Resources */,
+				120B9D572099FB12000D9719 /* Podfile in Resources */,
+				120B9D4A2099F2CE000D9719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D65C6254DE1D5411083518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kakaobank_homework/Pods-kakaobank_homework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kakaobank_homework/Pods-kakaobank_homework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6184C5DD997F6BA15CDA136D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kakaobank_homework/Pods-kakaobank_homework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC87E13548FACE1281572F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kakaobank_homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120B9D3D2099F2CE000D9719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120B9D472099F2CE000D9719 /* ViewController.swift in Sources */,
+				120895DF20A04FFD004B2387 /* imageHelper.swift in Sources */,
+				120895DC20A045FC004B2387 /* DiskCache.swift in Sources */,
+				120B9D5D209A0849000D9719 /* AppDetailVC.swift in Sources */,
+				120B9D452099F2CE000D9719 /* AppDelegate.swift in Sources */,
+				120B9D5B209A02DF000D9719 /* MainCell.swift in Sources */,
+				120B9D5F209A0F95000D9719 /* AppDetailCell.swift in Sources */,
+				120B9D592099FDF1000D9719 /* MainST.swift in Sources */,
+				1294AFC5209B55F60028D362 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		120B9D482099F2CE000D9719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120B9D492099F2CE000D9719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120B9D4D2099F2CE000D9719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120B9D4E2099F2CE000D9719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120B9D512099F2CE000D9719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		120B9D522099F2CE000D9719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120B9D542099F2CE000D9719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BED87820C81561B6F019D7 /* Pods-kakaobank_homework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaobank_homework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kakaobank-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120B9D552099F2CE000D9719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EEA1E65D8B8E6D3763B48B /* Pods-kakaobank_homework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaobank_homework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kakaobank-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120B9D3C2099F2CE000D9719 /* Build configuration list for PBXProject "kakaobank_homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120B9D512099F2CE000D9719 /* Debug */,
+				120B9D522099F2CE000D9719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120B9D532099F2CE000D9719 /* Build configuration list for PBXNativeTarget "kakaobank_homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120B9D542099F2CE000D9719 /* Debug */,
+				120B9D552099F2CE000D9719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120B9D392099F2CE000D9719 /* Project object */;
+}
